@@ -21,8 +21,4 @@ app.get('/', (req, res) => {
   })
 })
 
-app.listen(3000, () => {
-  console.log('done')
-})
-
 module.exports = app.lookup()
