@@ -3,11 +3,7 @@
   "builds": [
     {
       "src": "src/index.js",
-      "use": "@now/node",
-      "config": {
-        "helpers": false,
-        "includeFiles": ["views/**"]
-      }
+      "use": "@now/node"
     }
   ],
   "routes": [
